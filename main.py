@@ -1,5 +1,6 @@
-from views.login_view import show_login_window
+# 同学的修改：修改hello函数的输出
+def hello():
+    print("Hello, 校园二手市场！")  # 同学改的内容
 
 if __name__ == "__main__":
-    # 启动程序，打开登录窗口
-    show_login_window()
+    hello()
